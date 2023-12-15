@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="indexcartt.css">
+</head>
+<body>
+
+  <div class="items">
+    <div class="item">
+      <h2>Apple AirTag</h2>
+      <img src="https://i0.wp.com/gadgetfabriek.nl/wp-content/uploads/2021/08/apple-airtag.jpg?fit=750%2C750&ssl=1" width="150px">
+      <p>An Apple AirTag is the way to always know where your things are. Put the AirTag in your bag or attach it to your key ring. By putting the AirTag in a hanger, you can attach it to valuables. - Price: $10</p>
+      <button class="add-to-cart" data-price="10">Add to Cart</button>
+      
+      <span class="heart">♥</span>
+    </div>
+    
+    <div class="item">
+      <h2>Apple HomePod Mini - SPEAKERS</h2>
+      <img src="https://i0.wp.com/gadgetfabriek.nl/wp-content/uploads/2022/08/homepod-mini-blauw.jpg?fit=1000%2C1000&ssl=1" width="150px">
+      <p>This HomePod Mini is an innovative wireless speaker from Apple, which has fully integrated Siri. There are hardly any buttons on it, because Siri takes care of everything for you. - Price: $20</p>
+      <button class="add-to-cart" data-price="20">Add to Cart</button>
+      
+      <span class="heart">♥</span>
+    </div>
+    
+    <div class="item">
+      <h2>Apple AirPods 3
+      </h2>
+      <img src="https://i0.wp.com/gadgetfabriek.nl/wp-content/uploads/2022/08/apple-airpods-3-1.jpg?fit=1000%2C1000&ssl=1" width="150px">
+      <p>The earplugs fit in your ear in such a way that you can listen to them for a long time without getting pain in your ears. Apple works with Spatial Audio for these earbuds. - Price: $15</p>
+      <button class="add-to-cart" data-price="15">Add to Cart</button>
+      
+      <span class="heart" >♥</span>
+    </div>
+  </div>
+
+  <div class="cart">
+    <h2>Cart</h2>
+    <p>Total: $<span id="total">0</span></p>
+
+    <!-- Add this section for the cart items -->
+    <div class="cart-items">
+      <h2>Cart Items</h2>
+      <ul id="cart-list"></ul>
+    </div>
+  </div>
+
+  <script src="indexcartt.js"></script>
+</body>
+</html>
